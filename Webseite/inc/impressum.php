@@ -66,39 +66,4 @@
             </div>
         </div>
 </div>
-<div class="container d-flex justify-content-center mt-3">
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row no-gutters">
-    <div class="col">
-      <img src="img/image.png" class="card-img"style="max-width: 95px">
-    </div>
-    <div class="col">
-      <div class="card-body">
-        <h5 class="card-title">Magnus Göppel</h5>
-        <p class="card-text">Username: if22b248</p>
-        
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-
-
-
-<div class="container d-flex justify-content-center mt-3">
-<div class="card mb-3" style="max-width: auto;">
-  <div class="row no-gutters">
-    <div class="col">
-      <img src="img/bild.jpg" class="card-img" style="max-width: 95px">
-    </div>
-    <div class="col">
-      <div class="card-body">
-        <h5 class="card-title">Nikolaus Zednik</h5>
-        <p class="card-text">Username: if22b229</p>
-        
-      </div>
-    </div>
-  </div>
-</div>
 </div>
