@@ -1,34 +1,29 @@
-# Hotel-Webseite
+# Hotel Website
 
-## Beschreibung
+## Description
 
-Die "Hotel-Webseite" ist eine Webanwendung. Die Webseite ermöglicht es Benutzern, verschiedene Seiten wie die Startseite, 
-das Hilfe-Center, das Impressum und viele andere zu besuchen. Sie verwendet PHP für die Backend-Logik und Bootstrap für das Frontend-Design.
+The "Hotel Website" is a web application that allows users to visit various pages such as the homepage, help center, imprint, and many others. It uses PHP for backend logic and Bootstrap for frontend design.
 
-## Hauptfunktionen
+## Main Features
 
-### Session-Management:
-Die Webseite überprüft, ob eine Session vorhanden ist, und startet gegebenenfalls eine neue Session.
-Es gibt auch eine Funktion, um zu überprüfen, ob der Benutzer eingeloggt ist.
+### Session Management:
+The website checks if a session exists and starts a new session if necessary. It also includes a function to check if the user is logged in.
 
-### Navigation: 
-Die Navigation wird über eine separate `nav.php`-Datei eingebunden.
+### Navigation:
+Navigation is included through a separate `nav.php` file.
 
-### Dynamisches Laden von Seiten:
-Abhängig von der `site` GET-Variable wird die entsprechende Seite aus dem `inc`-Ordner geladen.
-Es gibt eine vordefinierte Liste von gültigen Seiten, und wenn eine ungültige Seite angefordert wird,
-wird eine Fehlerseite angezeigt.
-  
-### Styling: 
-Die Webseite verwendet Bootstrap für das Styling und hat zusätzliche benutzerdefinierte Styles, insbesondere für den Hintergrund.
+### Dynamic Page Loading:
+Depending on the `site` GET variable, the corresponding page from the `inc` folder is loaded. There is a predefined list of valid pages, and if an invalid page is requested, an error page is displayed.
+
+### Styling:
+The website uses Bootstrap for styling and includes additional custom styles, especially for the background.
 
 ### Responsive Design:
-Die Webseite ist für verschiedene Bildschirmgrößen optimiert, sodass sie auf Desktops, Tablets und Mobilgeräten gleichermaßen gut aussieht und funktioniert.
+The website is optimized for different screen sizes, ensuring it looks and functions well on desktops, tablets, and mobile devices.
 
-## Datenbank
-Für die Datenverwaltung wird eine MySQL-Datenbank verwendet. Die Datenbank wurde mit phpMyAdmin erstellt und konfiguriert. 
-Die Konfigurationsdatei für die Datenbankverbindung befindet sich im `db`-Verzeichnis des Projekts.
+## Database
+A MySQL database is used for data management. The database was created and configured using phpMyAdmin. The configuration file for the database connection is located in the `db` directory of the project.
 
-## Benutzung
+## Usage
 
-Zur Benutzung der Webseite wird ein Apache Webserver benötigt.
+An Apache web server is required to use the website.
